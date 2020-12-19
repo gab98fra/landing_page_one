@@ -1,5 +1,5 @@
-# Preview
+# Visualización
 ![](img/img5.PNG)
 
-# Code
+# Código
 - Siéntate libre de utilizarlo y modificarlo
