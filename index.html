@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Example</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Scrooll Reveal -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <!-- NAVEGACIÓN-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">Landing Page</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="#header">Inicio</a>
+          <a class="nav-item nav-link" href="#info-one">Quiénes Somos</a>
+          <a class="nav-item nav-link" href="#contact">Contacto</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sección -->
+    <section id="header">
+      <div class="container mt-5">
+        <div class="row">
+          
+          <div class="col-md-6 col-sm-6">
+            <div class="header-content-left">
+              <img src="img/img1.jpg" style="width: 100%;">
+            </div>  
+          </div>
+
+          <div class="col-md-6 col-sm-6">
+            <div class="header-content-right">
+              <h1 class="display-4">Ventas Inteligentes</h1>
+              <p class="mt-5">Aprovecha la tecnología para administrar su negocio de manera más precisa con 
+                nuestro software de CRM e incrementa sus ventas de manera exponencial. Conozca a detalle sus movimientos
+                de cada unos de las áreas que conformar su negocio.
+              </p>
+              <a href="#" class="btn btn-outline-secondary header-btn btn-lg mt-2" id="btn_1_alert">Conocer Más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial">
+      <div class="container">
+        <p class="h2 mb-2">
+          Con el software CRM me ha permitido administrar, conocer con lujo de detalle cada 
+          uno de los movimientos de mi negocio de manera rápida y precisa.
+        </p>
+        <p class="h4">- Luis Méndez</p>
+      </div>
+    </section>
+
+    <section id="info-one">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="info-left">
+              <img src="img/img2.jpg" style="width: 100%">
+            </div>
+          </div>
+          <div class="col-md-6 my-auto">
+            <div class="info-right">
+              <h2>¿Quiénes Somos?</h2>
+              <p>Somos un grupo de profesionistas apasionados y nos esmeramos día con día para entregarle una plataforma confiable, precisa y segura.</p>
+              <a href="#" class="btn btn-outline-secondary btn-lg" id="btn_2_alert">Conocer Más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info-two">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-md-6">
+            <h2>Inovación</h2>
+            <p>Nuestra plataforma se encuentra a la vanguandia con los indicadores más precisos y con el objetivo de propocionarle información relevante 
+                para la toma de decisiones.</p>
+          </div>
+          <div class="col-md-6">
+            <h2>Seguridad</h2>
+            <p>Nuestra plataforma se caracteriza por la segurida implementada y tendrá toda la seguridad de que sus datos 
+              se encontrarán protegidas y resguardadas en las mejores manos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6" style="margin: 0 auto;">
+            <h1 class="display-6" >Contáctanos</h1>
+            <form class="card mt-4 ">
+              <div class="card-body">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Nomnre">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Correo electrónico">
+                </div>
+                <div class="form-group">
+                  <textarea cols="30" rows="5" placeholder="Message" class="form-control"></textarea>
+                </div>
+                <button class="btn btn-outline-secondary btn-block">
+                  Enviar
+                </button>
+              </div>
+            </form>            
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            Elaborado por <a href="https://webfomatica.com" target="_blank"> Webfomatica</a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="mailto:contacto@webfomatica.com">Contactar vía email</a>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <a href="http://" ></a>
+    
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+   
+    <!-- SCROOLL REVEAL SCRIPT -->
+    <script src="src/main.js"></script>
+
+    <!-- sweetalert-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="src/sweet.js"></script>
+    
+  </body>
+</html>
