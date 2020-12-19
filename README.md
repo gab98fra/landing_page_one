@@ -1,5 +1,5 @@
 # Preview
-![](img/evidencia.png)
+![](img/evidencia.PNG)
 
 # Code
-- Sientate libre de utilizarlo y modificarlo
+- Siéntate libre de utilizarlo y modificarlo
